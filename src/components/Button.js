@@ -1,5 +1,10 @@
 import React from "react"
-import { TouchableOpacity, StyleSheet, Text, Dimensions } from "react-native"
+import { 
+  TouchableOpacity, 
+  StyleSheet, 
+  Text, 
+  Dimensions 
+} from "react-native"
 
 const screen = Dimensions.get("window")
 const buttonWidth = screen.width / 4
@@ -40,14 +45,14 @@ export default ({ onPress, text, size, theme }) => {
   const textStyles = [styles.text]
 
   if (size === "double") {
-    buttonStyles.push(styles.buttonDouble);
+    buttonStyles.push(styles.buttonDouble)
   }
 
   if (theme === "secondary") {
-    buttonStyles.push(styles.buttonSecondary);
-    textStyles.push(styles.textSecondary);
+    buttonStyles.push(styles.buttonSecondary)
+    textStyles.push(styles.textSecondary)
   } else if (theme === "accent") {
-    buttonStyles.push(styles.buttonAccent);
+    buttonStyles.push(styles.buttonAccent)
   }
 
   return (

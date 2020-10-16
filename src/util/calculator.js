@@ -11,8 +11,8 @@ export const handleNumber = (value, state) => {
 
   return {
     currentValue: `${state.currentValue}${value}`
-  };
-};
+  }
+}
 
 export const handleEqual = state => {
   const { currentValue, previousValue, operator } = state
@@ -52,7 +52,7 @@ export const handleEqual = state => {
     }
   }
 
-  return state;
+  return state
 }
 
 const calculator = (type, value, state) => {

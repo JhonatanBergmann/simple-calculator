@@ -1,5 +1,10 @@
 import React from "react"
-import { StyleSheet, Text, View, SafeAreaView } from "react-native"
+import { 
+  StyleSheet, 
+  Text, 
+  View, 
+  SafeAreaView 
+} from "react-native"
 
 import Row from "./src/components/Row"
 import Button from "./src/components/Button"
@@ -86,9 +91,7 @@ export default class App extends React.Component {
               theme="accent"
               onPress={() => this.handleTap("equal")}
             />
-            
           </Row>
-          
         </SafeAreaView>
       </View>
     )
@@ -107,5 +110,5 @@ const styles = StyleSheet.create({
     textAlign: "right",
     marginRight: 20,
     marginBottom: 10
-  },
+  }
 })
