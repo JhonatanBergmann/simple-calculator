@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<p align="center">Calculator</p>
+<p align="center">Very simple calculator, very similar to iOS. To do basic operations.</p>
 
 <br>
 
@@ -35,7 +35,7 @@ Enter the project folder and run the command to install the project's dependenci
 ```sh
 yarn install
 ```
-ou
+or
 ```sh
 npm install
 ```
