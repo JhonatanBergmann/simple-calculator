@@ -5,31 +5,32 @@
   <br>
 </h1>
 
-<p align="center">Calculadora semelhante ao do iOS</p>
+<p align="center">Calculator</p>
 
 <br>
 
 <p align="center">
-  <img src="src/gif.gif" alt="Demo" >
+  <img src="forGithub/Screenshot.png" alt="img" >
 </p>
 
-## 🛠 Tecnologias
+## 🛠 Technologies
+This project was developed with the following technologies:
+
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
 - [Node](https://nodejs.org/en/)
 
+## 📱 How To Use 
 
-## 📱 Executando 
+To execute the project it is necessary that you have the React Native environment configured, you can follow this [GUIA](https://reactnative.dev/docs/environment-setup).
 
-Para executar o projeto é necessário que você tenha o ambiente React Native configurado, você pode seguir esse [GUIA](https://reactnative.dev/docs/environment-setup) para tal.
-
-Depois de configurar o ambiente, basta fazer o clone do projeto:
+After setting up the environment, just clone the project:
 
 ```sh
 git clone https://github.com/JhonatanBergmann/Calculator.git
 ```
 
-Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
+Enter the project folder and run the command to install the project's dependencies:
 
 ```sh
 yarn install
@@ -39,7 +40,7 @@ ou
 npm install
 ```
 
-Em seguida execute o comando referente a plataforma ao qual deseja executar:
+Then run the command for the platform you want to run on:
 
 Android:
 
@@ -53,6 +54,15 @@ iOS:
 react-native run-ios
 ```
 
+## 🤔 How to contribute
+
+-  Make a fork;
+-  Create a branch with your feature: `git checkout -b my-feature`;
+-  Commit changes: `git commit -m 'feat: My new feature'`;
+-  Make a push to your branch: `git push origin my-feature`.
+
+After merging your receipt request to done, you can delete a branch from yours.
+
 <p align="center">
- Feito com 💜 by Jhonatan Bergmann
+ Made with ♥ by Jhonatan Bergmann
 </p>
