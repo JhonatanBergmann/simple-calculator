@@ -1,9 +1,9 @@
 import React from "react"
-import { 
-  StyleSheet, 
-  Text, 
-  View, 
-  SafeAreaView 
+import {
+  StyleSheet,
+  Text,
+  View,
+  SafeAreaView
 } from "react-native"
 
 import Row from "./src/components/Row"
