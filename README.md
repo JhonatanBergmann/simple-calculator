@@ -18,7 +18,6 @@ This project was developed with the following technologies:
 
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
-- [Node](https://nodejs.org/en/)
 
 ## 📱 How To Use 
 
@@ -27,7 +26,7 @@ To execute the project it is necessary that you have the React Native environmen
 After setting up the environment, just clone the project:
 
 ```sh
-git clone https://github.com/jhonbergmann/simple-calculator-mobile.git
+git clone https://github.com/jhonbergmann/simple-calculator.git
 ```
 
 Enter the project folder and run the command to install the project's dependencies:
